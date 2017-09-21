@@ -208,7 +208,7 @@ namespace Capston_Project
 
             for (int i = 0; i < img_count; i++)
             {
-                // 손의 네모에 벌레의 위치값이 들어가면 충돌했다. 벌레가 충돌하는 모습을 한자로 읽으면 충충돌(蟲衝突)
+                // 손의 네모에 벌레의 위치값이 들어가면 충돌한다
                 if (bugList[i].visible == true &&
                     Intersect(bugList[i].loc, (int)(action.points[(int)Action.JointTypePoint.HandRight].X),
                                                       (int)(action.points[(int)Action.JointTypePoint.HandRight].Y)) &&
